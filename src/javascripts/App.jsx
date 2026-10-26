@@ -1,4 +1,5 @@
-import HoneyCatalog from "./javascripts/HoneyCatalog";
+import React from "react";
+import HoneyCatalog from "./HoneyCatalog.jsx";
 
 function App() {
   return (

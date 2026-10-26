@@ -1,5 +1,4 @@
-
-import { useState } from "react";
+import React, { useState } from "react";
 import "../stylesheets/HoneyCard.css";
 
 function HoneyCard({ image, title, price }) {
