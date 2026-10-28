@@ -1,19 +1,8 @@
-import React, { useState } from "react";
+
+import React from "react";
 import "../stylesheets/HoneyCard.css";
 
-function HoneyCard({ image, title, price }) {
-  const [count, setCount] = useState(0);
-
-  function add() {
-    setCount(count + 1);
-  }
-
-  function remove() {
-    if (count > 0) {
-      setCount(count - 1);
-    }
-  }
-
+function HoneyCard({ image, title, price, count, add, remove }) {
   return (
     <div className="honey-card">
       <img className="honey-card__image" src={image} alt={title} />
